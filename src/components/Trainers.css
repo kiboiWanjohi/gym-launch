@@ -1,0 +1,40 @@
+.container {
+  max-width: 100%;
+}
+h1 {
+  text-align: center;
+}
+.row {
+  display: grid;
+  max-height: 500px;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  place-items: center;
+  max-width: 100%;
+}
+.box1 {
+  background-image: url("../images/trainer2.jpg");
+  background-size: cover;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: cover;
+  position: relative;
+  height: 250px;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  border-radius: 12px;
+}
+.box2 {
+  background-image: url("../images/trainer1.jpg");
+  background-size: cover;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 250px;
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+  border-radius: 12px;
+}
